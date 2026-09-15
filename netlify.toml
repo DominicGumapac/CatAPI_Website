@@ -1,0 +1,10 @@
+# Netlify build settings.
+#
+# This site has no server and no build tooling of its own — the only
+# job of the "build" is to generate config.js from the PIXABAY_API_KEY
+# environment variable set in the Netlify dashboard, so the real key
+# never has to live in the git repository.
+
+[build]
+  publish = "."
+  command = "echo \"const PIXABAY_API_KEY = '$PIXABAY_API_KEY';\" > config.js"
