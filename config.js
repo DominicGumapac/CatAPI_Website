@@ -1,1 +1,0 @@
-const CAT_API_KEY = "live_SVgod9lKvtOdc8re19t1CRTp4KDycmbCub6LJWCGK3eqwDI8GSyHJ1huXB8G7MDw";
