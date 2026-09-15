@@ -1,6 +1,6 @@
 The README
 
-This website is a single site page that uses the Pixabay API to search images and videos from its databases.
+This website is a single site page that uses the CatAPI to search images or clips from its databases.
 
 To run this project locally you must
 
@@ -8,7 +8,7 @@ To run this project locally you must
 
 2. Create config.js file with this code inside it
 
-const CAT_API_KEY = "Your API key from pixabay"
+const CAT_API_KEY = "Your API key from CatAPI"
 
 This is to ensure that the my personal API Key won't be leaked or accessible to the public
 
